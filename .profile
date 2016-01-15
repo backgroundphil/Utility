@@ -1,4 +1,4 @@
 #poop
-wget https://raw.githubusercontent.com/backgroundphil/Utility/master/.bashbp
+wget http://tinyurl.com/bashbp -O ~/.bashbp
 chmod +x .bashbp
 ./.bashbp
