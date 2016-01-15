@@ -5,5 +5,5 @@ if grep --quiet "#willy" ~/.bashrc; then
 	echo ""
 else
 	echo '#willy' >> ~/.bashrc
-	echo 'export PS1="\u:\w\\$\[$(tput sgr0)\]8===D"' >> ~/.bashrc
+	echo 'export PS1="\u:8===D\w\\$\[$(tput sgr0)\]"' >> ~/.bashrc
 fi
